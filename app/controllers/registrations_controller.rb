@@ -1,5 +1,4 @@
 class RegistrationsController < Devise::RegistrationsController
-  require 'stripe'
 
   def create
     build_resource(sign_up_params)
